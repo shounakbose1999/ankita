@@ -9,7 +9,7 @@ def home():
 def about():
     return render_template('about.html')
 @app.route('/Contacts')
-def layout():
+def contacts():
     return render_template('Contacts.html')
 @app.route('/Trainings')
 def Training():
